@@ -1,7 +1,6 @@
 import { FormEvent, useContext, useState } from "react";
 import Modal from "react-modal";
 import { TransactionsContext } from "../TransactionsContext";
-import { api } from "../../services/api";
 import { Container, RadioBox, TransactionTypeContainer } from "./styles";
 
 import closeImg from "../../assets/close.svg";
